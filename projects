@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#########################
+# Author: Surendhar
+# Date: 10/07/2024
+# version: v2
+# This script outputs of node health 
+#########################
+
+set -x 
+# list the load average
+top
+# list the cpu
+nproc 
+# list the memory usage
+free -h
+# list the filesystem utilization 
+df -h 
